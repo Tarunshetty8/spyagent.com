@@ -18,6 +18,41 @@
             font-family: 'Poppins', sans-serif;
         }
     </style>
+    <script>
+        function disableRightClick(event) {
+            event.preventDefault();
+        }
+        function disableDrag(event) {
+            event.preventDefault();
+        }
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.addEventListener('contextmenu', disableRightClick);
+            const images = document.querySelectorAll('img');
+            images.forEach(img => {
+                img.addEventListener('dragstart', disableDrag);
+            });
+        });
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && event.key === 'u') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.shiftKey && event.key === 'I') {
+                event.preventDefault();
+            }
+            if (event.ctrlKey && event.shiftKey && event.key === 'J') {
+                event.preventDefault();
+            }
+            if (event.key === 'F12') {
+                event.preventDefault();
+            }
+        });
+        document.addEventListener('copy', function(event) {
+            event.preventDefault();
+        });
+        document.addEventListener('cut', function(event) {
+            event.preventDefault();
+        });
+    </script>
 </head>
 <body>
     <!-- Navigation will go here -->
