@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spy Agent</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="website icon" href="./spyagent.png"/>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation will go here -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-blue-800"><img style="height: 75px;" src="./Spy.jpg"></div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Home</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Features</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Services</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">About</a>
+                    <a href="#" class="text-gray-800 hover:text-blue-600">Contact</a>
+                </div>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section will go here -->
+    <section class="pt-32 pb-20 px-4">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-4">
+                        Connecting with secure network
+                    </h1>
+                    <p class="text-lg text-gray-600 mb-8">
+                        Protect your assets with our cutting-edge security systems and monitoring services.
+                    </p>
+                    <div class="flex space-x-4">
+                        <button class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition">
+                            Learn More
+                        </button>
+                        <button class="border border-blue-600 text-blue-600 px-6 py-3 rounded-md hover:bg-blue-50 transition">
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img style="height: 400px;width: 400px;" src="./cyber-security-tech-globe-concept-vector.jpg" 
+                        alt="Security illustration" 
+                        class="rounded-lg shadow-xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Security Features</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Advanced protection solutions tailored to your specific needs</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Threat Protection</h3>
+                    <p class="text-gray-600">24/7 monitoring and immediate threat response to keep your assets safe.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Data Encryption</h3>
+                    <p class="text-gray-600">Military-grade encryption for all your sensitive business data.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Access Control</h3>
+                    <p class="text-gray-600">Granular permission systems to control who accesses what in your organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">What Our Clients Say</h2>
+                <p class="max-w-2xl mx-auto opacity-90">Be first person to give Testimonials</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-blue-700 p-8 rounded-lg hover:transform hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <img src="" 
+                            alt="Client" 
+                            class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold"></h4>
+                            <p class="text-blue-200 text-sm"></p>
+                        </div>
+                    </div>
+                    <p class="opacity-90">""</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-blue-700 p-8 rounded-lg hover:transform hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <img src="" 
+                            alt="Client" 
+                            class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold"></h4>
+                            <p class="text-blue-200 text-sm"></p>
+                        </div>
+                    </div>
+                    <p class="opacity-90">""</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-blue-700 p-8 rounded-lg hover:transform hover:-translate-y-1 hover:shadow-xl transition duration-300">
+                    <div class="flex items-center mb-4">
+                        <img src="" 
+                            alt="Client" 
+                            class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-semibold"></h4>
+                            <p class="text-blue-200 text-sm"></p>
+                        </div>
+                    </div>
+                    <p class="opacity-90">""</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Spy Agent</h3>
+                    <p class="text-gray-400 mb-4">Advanced security solutions for businesses of all sizes.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/share/18mmycCUNC/" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/Spyagent_8?t=HlPhFbsupQdu7O2buzTyoA&s=09" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/groups/14629042" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/spy.agent_official?igsh=MTdqNzJodW5hNWpsYg==" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Services</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Threat Protection</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Data Encryption</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Access Control</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">24/7 Monitoring</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Us</h4>
+                    <ul class="space-y-2">
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>4-7-40B,1st floor,Srinivasa Nagar,Hindupur-515201.</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-phone-alt mr-2"></i>
+                            <span>+91 8978758935</span>
+                        </li>
+                        <li class="flex items-center text-gray-400">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>spy.agent.in@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <span>
+                    Created By 
+                    <a href="https://www.linkedin.com/in/tarunshetty-07a302255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noreferrer">
+                        Tarunshetty
+                    </a> 
+                    | <span class="far fa-copyright"></span> 
+                    <span id="year"></span> All rights reserved
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
